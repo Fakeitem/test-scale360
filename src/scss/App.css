@@ -1,0 +1,76 @@
+.todo-complete {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #155724;
+}
+
+.todo-list {
+  display: flex;
+}
+
+.todo-manage {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-title {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.todo-button label {
+  cursor: pointer;
+  margin: 0;
+}
+
+.one-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.check-all {
+  padding: .3rem .5rem;
+  cursor: pointer;
+}
+
+.check-all:hover, .check-all.active {
+  background: #343a40;
+  color: #fff;
+}
+
+.single-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  overflow: auto;
+}
+
+.my-loading {
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 600px) {
+  .single-page h1 {
+    font-size: 1.5rem !important;
+  }
+}
