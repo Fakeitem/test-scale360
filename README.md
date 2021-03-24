@@ -1,6 +1,5 @@
-# TODO task list
-
-This example is the test of Scale360 corporation using [crete-react-app](https://github.com/facebook/create-react-app).
+# test-scale360
+This example are todo task list app and the test of Scale360 corporation using [crete-react-app](https://github.com/facebook/create-react-app).
 
 ## Installation
 
